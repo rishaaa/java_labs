@@ -63,7 +63,6 @@ public class FractalExplorer {
     }
 
     public class MouseHandler implements MouseListener { // реализация кнопоки мышки
-        @Override
         public void mouseClicked(MouseEvent e) {
             double mouseX = FractalGenerator.getCoord(range.x, range.x + range.width, size, e.getX());
             double mouseY = FractalGenerator.getCoord(range.y, range.y + range.width, size, e.getY());
